@@ -44,6 +44,7 @@ print(group_by_frequency(lst))
 
 def rotate_list(lst,num):
     num= num% len(lst)
+    print(num)
     return lst[num:] + lst[:num]
 lst = [1, 2, 3, 4, 5]
 print(rotate_list(lst, 2))  
